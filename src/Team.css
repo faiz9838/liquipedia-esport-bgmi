@@ -1,0 +1,22 @@
+.team-card {
+  position: relative;
+}
+
+.team-card img {
+  border-radius: 0.5rem;
+ 
+}
+
+.hover-details {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+  font-weight: 900;
+  font-style: unset;
+}
+
+.team-card:hover .hover-details {
+  opacity: 2;
+}

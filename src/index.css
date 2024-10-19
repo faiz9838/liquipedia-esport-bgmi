@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+./* styles.css */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Light background color for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 16px;
+}
+
+.card {
+    background: linear-gradient(to right, #4F46E5, #9333EA); /* Gradient background */
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+}
+
+.card-text {
+    font-size: 16px;
+    color: white;
+    text-align: center;
+}
